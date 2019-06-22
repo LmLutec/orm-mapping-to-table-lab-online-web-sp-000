@@ -1,4 +1,3 @@
-require 'pry'
 class Student
   attr_reader :id, :name, :grade  
   # Remember, you can access your database connection anywhere in this class
