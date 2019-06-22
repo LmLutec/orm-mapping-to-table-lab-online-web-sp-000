@@ -32,6 +32,6 @@ class Student
   end 
   
   def self.create 
-    DB = {:conn => SQLite3::Database.new("lib/student.db")}
+    DB = {:conn => SQLite3::Database.new("lib/student.rb")}
   end 
 end
