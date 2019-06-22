@@ -35,6 +35,7 @@ class Student
     student = Student.new(name, grade)
     student.save
     student
+    binding.pry 
     DB[:conn].execute(sql,self.name,self.grade)
   end 
 end
