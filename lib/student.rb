@@ -36,6 +36,6 @@ class Student
     student.save
     student
     #binding.pry 
-    DB[:conn].execute(sql,self.name,self.grade)
+    DB[:conn].execute(sql,name,grade)
   end 
 end
